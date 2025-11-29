@@ -4,7 +4,7 @@
 
 ### General Terraform Modules
 
-**Repository:** [sudo-Terraform-Modules](https://github.com/sudo-Terraform-Modules)
+**Repository:** [sudo-terraform-modules](https://github.com/sudo-Terraform-Modules)
 
 Open source Terraform modules for multi-cloud deployments and common infrastructure patterns.
 
