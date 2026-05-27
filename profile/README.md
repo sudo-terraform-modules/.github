@@ -4,13 +4,13 @@
 
 ### General Terraform Modules
 
-**Repository:** [sudo-terraform-modules](https://github.com/sudo-Terraform-Modules)
+**GitHub Organization:** [sudo-terraform-modules](https://github.com/sudo-Terraform-Modules)
 
 Open source Terraform modules for multi-cloud deployments and common infrastructure patterns.
 
 ### AWS-Specific Modules
 
-**Repository:** [sudo-terraform-aws-modules](https://github.com/sudo-terraform-aws-modules)
+**GitHub Organization:** [sudo-terraform-aws-modules](https://github.com/sudo-terraform-aws-modules)
 
 Terraform modules specifically designed for Amazon Web Services infrastructure.
 
