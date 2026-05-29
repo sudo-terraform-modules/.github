@@ -1,5 +1,7 @@
 # SUDO Consultants - Open Source Terraform Modules
 
+<img width="1000" height="200" alt="SUDO OSS" src="https://github.com/user-attachments/assets/b48a28b5-9ecc-417e-b3cf-54188b323da3" />
+
 ## Terraform Module Repositories
 
 ### General Terraform Modules
