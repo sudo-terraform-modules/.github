@@ -1,0 +1,55 @@
+name: Bug report
+description: The module fails, plans the wrong thing, or behaves differently than documented
+labels: ["type/bug"]
+body:
+  - type: textarea
+    id: what
+    attributes:
+      label: What happened
+      description: Include the exact error message or the unexpected part of the plan.
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: What you expected
+    validations:
+      required: true
+  - type: textarea
+    id: config
+    attributes:
+      label: Module configuration
+      description: The smallest module block that reproduces it. Remove secrets, tokens and IDs.
+      render: hcl
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      placeholder: |
+        1. terraform apply with the config above
+        2. change ...
+        3. terraform plan shows ...
+    validations:
+      required: true
+  - type: input
+    id: module_version
+    attributes:
+      label: Module version
+      description: Release tag or commit SHA.
+    validations:
+      required: true
+  - type: input
+    id: versions
+    attributes:
+      label: Terraform and provider versions
+      placeholder: Terraform 1.9.8, gitlabhq/gitlab 18.0.0
+    validations:
+      required: true
+  - type: textarea
+    id: logs
+    attributes:
+      label: Plan or apply output
+      description: Remove secrets, tokens and IDs before pasting.
+      render: shell

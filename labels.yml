@@ -1,0 +1,18 @@
+# Labels synced to every repository in the org by scripts/sync-labels.sh
+- { name: type/bug,           color: d73a4a, description: Something is broken }
+- { name: type/feature,       color: 0e8a16, description: New capability or behaviour }
+- { name: type/chore,         color: c5def5, description: Maintenance, tooling or refactoring }
+- { name: type/docs,          color: 0075ca, description: Documentation only }
+- { name: type/security,      color: b60205, description: Security fix or hardening }
+- { name: type/dependencies,  color: 0366d6, description: Dependency or version update }
+- { name: priority/critical,  color: b60205, description: Breaks deployments or blocks a release }
+- { name: priority/high,      color: d93f0b, description: Next in line }
+- { name: priority/medium,    color: fbca04, description: Planned }
+- { name: priority/low,       color: c2e0c6, description: Nice to have }
+- { name: status/blocked,     color: "000000", description: Waiting on something outside this repo }
+- { name: status/needs-info,  color: fef2c0, description: Needs more detail before work can start }
+- { name: breaking-change,    color: 5319e7, description: Needs a major version and migration notes }
+- { name: good first issue,   color: 7057ff, description: Small and well scoped, good for a first contribution }
+- { name: help wanted,        color: "008672", description: Open for anyone in the team to pick up }
+- { name: duplicate,          color: cfd3d7, description: Already tracked elsewhere }
+- { name: wontfix,            color: ffffff, description: Will not be worked on }
